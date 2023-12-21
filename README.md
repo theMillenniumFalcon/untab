@@ -1,3 +1,4 @@
+# Untab
 Most of us have dozens of open tabs, and it quickly becomes cumbersome to manage them efficiently. UnTab is a browser extension that gives you superpowers by making it possible to search through open tabs and perform common actions with just a few keystrokes. This in turn boosts productivity and makes you look like a hero!
 
 UnTab is officially supported on following browsers:
@@ -10,7 +11,7 @@ UnTab _might_ also be compatible with other browsers that use Chromium under the
 ## Project Setup
 ### Clone the repository
 ```bash
-git clone https://github.com/blenderskool/untab.git
+git clone https://github.com/theMillenniumFalcon/untab.git
 cd untab
 ```
 
@@ -72,6 +73,3 @@ Following **events** are tracked:
 - Selecting some item in the UnTab interface.  
   (NOTE: The content itself in any form is **not sent**, just an indication that above event occurred)
 
-
-## License 
-UnTab is [MIT Licensed](https://github.com/blenderskool/untab/blob/master/LICENSE)
