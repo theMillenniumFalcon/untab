@@ -1,0 +1,100 @@
+:root {
+  /*
+    * Most of these colors are from tailwindcss
+    * https://tailwindcss.com/docs/customizing-colors#default-color-palette
+    */
+  --bg: #FFF;
+  --bg-80: rgba(255, 255, 255, 0.8);
+  --white: #FFF;
+  --gray-300-90: rgba(226, 232, 240, 0.9);
+  --gray-500: #A0AEC0;
+  --gray-600: #718096;
+  --gray-700: #4A5568;
+  --gray-800: #2D3748;
+  --blue-400: #1387FF;
+  --blue-400-45: rgba(19, 135, 255, 0.45);
+  --blue-700: #073360;
+  --border: #CBD5E0;
+  --bg-pill: #CBD5E0;
+}
+
+.search-wrapper.theme-dark {
+  --bg: #1A202C;
+  --bg-80: rgba(13, 15, 18, 0.8);
+  --white: #25282F;
+  --gray-300-90: rgba(9, 11, 14, 0.9);
+  --gray-500: #596473;
+  --gray-600: #596473;
+  --gray-700: #718096;
+  --gray-800: #A0AEC0;
+  --blue-400: #187DDD;
+  --blue-400-45: rgba(24, 125, 221, 0.45);
+  --blue-700: #91AFCB;
+  --border: #313131;
+  --bg-pill: rgba(9, 11, 14, 0.9);
+}
+
+.search-wrapper.theme-coffee {
+  --bg: #231d1e;
+  --bg-80: rgba(35, 29, 30, 0.8);
+  --white: #c4babb;
+  --gray-300-90: rgba(31, 25, 26, 0.9);
+  --gray-500: #6e6062;
+  --gray-600: #6e6062;
+  --gray-700: #8f8183;
+  --gray-800: #c4babb;
+  --blue-400: #725a5e;
+  --blue-400-45: rgba(114, 90, 94, 0.45);
+  --blue-700: #c7b5b8;
+  --border: #423232;
+  --bg-pill: rgba(31, 25, 26, 0.9);
+}
+
+.search-wrapper.theme-spearmint {
+  --bg: #304140;
+  --bg-80: rgba(48, 65, 64, 0.8);
+  --white: #b4c7c6;
+  --gray-300-90: rgba(39, 57, 55, 0.9);
+  --gray-500: #59706f;
+  --gray-600: #6e8584;
+  --gray-700: #91a7a5;
+  --gray-800: #b4c7c6;
+  --blue-400: #4c8380;
+  --blue-400-45: rgba(90, 140, 130, 0.45);
+  --blue-700: #a4c3c1;
+  --border: #3c5251;
+  --bg-pill: rgba(39, 57, 55, 0.9);
+}
+
+.search-wrapper.theme-ocean {
+  --bg: #2a4574;
+  --bg-80: rgba(23, 55, 93, 0.8);
+  --white: #b4c7c6;
+  --gray-300-90: rgba(19, 46, 79, 0.9);
+  --gray-500: #75a3de;
+  --gray-600: #75a3de;
+  --gray-700: #b1d0ff;
+  --gray-800: #def5fc;
+  --blue-400: #3F80D8;
+  --blue-400-45: rgba(30, 143, 255, 0.45);
+  --blue-700: #bbd8ff;
+  --border: #28405d;
+  --bg-pill: rgba(19, 46, 79, 0.9);
+}
+
+
+.search-wrapper.theme-lamentis {
+  --bg: #261142;
+  --bg-80: rgba(38, 17, 66, 0.8);
+  --white: #ffffff;
+  --gray-300-90: rgba(37, 17, 59, 0.9);
+  --gray-500: #714d92;
+  --gray-600: #725f8b;
+  --gray-700: #998bb3;
+  --gray-800: #e0dcea;
+  --blue-400: #c5651f;
+  --blue-400-45: rgba(197, 101, 31, 0.45);
+  --blue-700: #c9b1a0;
+  --border: #633989;
+  --bg-pill: rgba(29, 10, 53, 0.9);
+}

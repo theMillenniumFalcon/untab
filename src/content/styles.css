@@ -1,0 +1,19 @@
+iframe.untab {
+  position: fixed !important;
+  top: 0 !important;
+  left: 0 !important;
+  width: 100vw !important;
+  height: 100vh !important;
+  border: none !important;
+  z-index: 2147483647 !important;
+  visibility: hidden;
+  opacity: 0;
+  transition: visibility 0s 0.1s, opacity 0.1s linear;
+  color-scheme: light !important;
+}
+
+iframe.untab.visible {
+  visibility: visible;
+  opacity: 1;
+  transition: opacity 0.1s linear;
+}
